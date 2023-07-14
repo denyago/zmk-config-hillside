@@ -68,7 +68,7 @@
  */
 
             bindings = <
-&kp GRAVE  &kp Q  &htkpmo W 4  &htkpmo E 1  &htkpmo R 2  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp TAB  &ht2kp A LEFT_SHIFT  &ht2kp S LEFT_CONTROL  &ht2kp D LEFT_ALT  &ht2kp F LEFT_COMMAND  &htkpmo G 3  &htkpmo H 3  &ht2kp J RIGHT_COMMAND  &ht2kp K RIGHT_ALT  &ht2kp L RIGHT_CONTROL  &ht2kp SEMICOLON RIGHT_SHIFT  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &tdsnd  &kp C_VOLUME_UP  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT  &sk SPACE  &kp ESCAPE  &kp BACKSPACE  &kp ENTER  &kp DOWN_ARROW  &kp UP_ARROW
+&kp GRAVE  &kp Q  &htkpmo W 0  &htkpmo E 1  &htkpmo R 2  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp TAB  &ht2kp A LEFT_SHIFT  &ht2kp S LEFT_CONTROL  &ht2kp D LEFT_ALT  &ht2kp F LEFT_COMMAND  &htkpmo G 4  &htkpmo H 4  &ht2kp J RIGHT_COMMAND  &ht2kp K RIGHT_ALT  &ht2kp L RIGHT_CONTROL  &ht2kp SEMICOLON RIGHT_SHIFT  &none  &htkpmo K_MUTE2 5  &kp Z  &kp X  &kp C  &kp V  &kp B  &tdsnd  &kp C_VOLUME_UP  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT  &sk SPACE  &kp ESCAPE  &kp BACKSPACE  &kp ENTER  &kp DOWN_ARROW  &kp UP_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -108,6 +108,22 @@
             label = "FNs";
         };
 
+        sympols {
+            bindings = <
+&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans  &kp LS(DQT)  &kp GRAVE  &kp LBKT  &kp LS(RBKT)  &kp LS(PIPE)  &kp BSLH  &kp LS(RBRC)  &kp LBRC  &kp EQUAL  &kp MINUS  &trans  &trans  &kp SQT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(UNDER)  &trans  &trans  &trans  &kp LS(TILDE)  &kp FSLH  &kp LS(PLUS)  &kp EQUAL  &trans  &trans
+            >;
+
+            label = "SYMBOLS";
+        };
+
+        arrows {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp END  &trans  &trans  &trans  &trans  &kp PG_DN  &kp PG_UP
+            >;
+
+            label = "ARROWS";
+        };
+
         adj_layer {
             /* ADJUST
  * -------------------------------------------------------------------------------------------------------------------------------------
@@ -118,16 +134,10 @@
  */
 
             bindings = <
-&none  &to 0  &to 0  &to 0  &none  &none  &none  &kp F11  &kp F12  &kp PRINTSCREEN  &ext_power EP_OFF  &ext_power EP_ON  &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &none  &sys_reset  &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &none  &bt BT_CLR  &none  &none  &none  &out OUT_USB  &out OUT_BLE  &none  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &to 0  &to 0  &to 0  &none  &none  &none  &trans  &trans  &kp PRINTSCREEN  &ext_power EP_OFF  &ext_power EP_ON  &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &none  &sys_reset  &none  &trans  &trans  &trans  &trans  &none  &bt BT_CLR  &none  &none  &none  &out OUT_USB  &out OUT_BLE  &none  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
