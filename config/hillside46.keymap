@@ -110,7 +110,7 @@
 
         sympols {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans  &kp LS(DQT)  &kp GRAVE  &kp LBKT  &kp LS(RBKT)  &kp LS(PIPE)  &kp BSLH  &kp LS(RBRC)  &kp LBRC  &kp EQUAL  &kp MINUS  &trans  &trans  &kp SQT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(UNDER)  &trans  &trans  &trans  &kp LS(TILDE)  &kp FSLH  &kp LS(PLUS)  &kp EQUAL  &trans  &trans
+&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans  &kp DOUBLE_QUOTES  &kp GRAVE  &kp LBKT  &kp LEFT_BRACE  &kp PIPE  &kp BSLH  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EQUAL  &kp MINUS  &trans  &trans  &kp SQT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(UNDER)  &trans  &trans  &trans  &kp LS(TILDE)  &kp FSLH  &kp LS(PLUS)  &kp EQUAL  &trans  &trans
             >;
 
             label = "SYMBOLS";
