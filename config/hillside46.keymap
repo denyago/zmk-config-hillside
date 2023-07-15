@@ -68,7 +68,7 @@
  */
 
             bindings = <
-&kp GRAVE  &kp Q  &htkpmo W 0  &htkpmo E 1  &htkpmo R 2  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp TAB  &ht2kp A LEFT_SHIFT  &ht2kp S LEFT_CONTROL  &ht2kp D LEFT_ALT  &ht2kp F LEFT_COMMAND  &htkpmo G 4  &htkpmo H 4  &ht2kp J RIGHT_COMMAND  &ht2kp K RIGHT_ALT  &ht2kp L RIGHT_CONTROL  &ht2kp SEMICOLON RIGHT_SHIFT  &none  &htkpmo K_MUTE2 5  &kp Z  &kp X  &kp C  &kp V  &kp B  &tdsnd  &kp C_VOLUME_UP  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT  &sk SPACE  &kp ESCAPE  &kp BACKSPACE  &kp ENTER  &kp DOWN_ARROW  &kp UP_ARROW
+&kp GRAVE  &kp Q  &htkpmo 0 W  &htkpmo 1 E  &htkpmo 2 R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &kp TAB  &ht2kp LEFT_SHIFT A  &ht2kp LEFT_CONTROL S  &ht2kp LEFT_ALT D  &ht2kp LEFT_COMMAND F  &htkpmo 4 G  &htkpmo 4 H  &ht2kp RIGHT_COMMAND J  &ht2kp RIGHT_ALT K  &ht2kp RIGHT_CONTROL L   &ht2kp RIGHT_SHIFT SEMICOLON  &none  &htkpmo 5 K_MUTE2  &kp Z  &kp X  &kp C  &kp V  &kp B  &tdsnd  &kp C_VOLUME_UP  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp CAPSLOCK  &kp LEFT  &kp RIGHT  &sk SPACE  &kp ESCAPE  &kp BACKSPACE  &kp ENTER  &kp DOWN_ARROW  &kp UP_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
